@@ -1,8 +1,8 @@
 public class Word {
 
     private String word;
-    private double sw;  //Starting word percentage
-    private double fw;  //Finishing word percentage
+    private double sw;  //Starting word probability
+    private double fw;  //Finishing word probability
 
     public Word(String word, double sw, double fw){
         this.setWord(word);
